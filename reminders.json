@@ -1,18 +1,18 @@
 [
-    {
-        "enabled": true,
-        "name": "Morning Reminder",
-        "description": "Daily morning greeting",
-        "groupId": "919035016366-1614008442@g.us",
-        "cron": "*/1 * * * *",
-        "message": "🌞 Good Morning!"
-    },
-    {
-        "enabled": false,
-        "name": "Night Reminder",
-        "description": "Daily night reminder",
-        "groupId": "919035016366-1614008442@g.us",
-        "cron": "0 22 * * *",
-        "message": "🌙 Good Night!"
-    }
+  {
+    "enabled": true,
+    "name": "Morning Reminder",
+    "description": "Daily morning greeting",
+    "groupId": "120363401810961427@g.us",
+    "cron": "0 9 * * *",
+    "message": "Reminder - Check To-do List"
+  },
+  {
+    "enabled": false,
+    "name": "Night Reminder",
+    "description": "Daily night reminder",
+    "groupId": "120363401810961427@g.us",
+    "cron": "0 22 * * *",
+    "message": "🌙 Good Night!"
+  }
 ]
