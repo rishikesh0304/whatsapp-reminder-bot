@@ -1,18 +1,34 @@
 [
-  {
-    "enabled": true,
-    "name": "Morning Reminder",
-    "description": "Daily morning greeting",
-    "groupId": "120363401810961427@g.us",
-    "cron": "0 9 * * *",
-    "message": "Reminder - Check To-do List"
-  },
-  {
-    "enabled": false,
-    "name": "Night Reminder",
-    "description": "Daily night reminder",
-    "groupId": "120363401810961427@g.us",
-    "cron": "0 22 * * *",
-    "message": "🌙 Good Night!"
-  }
+    {
+        "enabled": true,
+        "name": "Morning Reminder",
+        "description": "Daily morning greeting",
+        "groupId": "120363401810961427@g.us",
+        "cron": "0 9 * * *",
+        "message": "🌞 Good Morning!"
+    },
+    {
+        "enabled": true,
+        "name": "Sunday Vote Reminder",
+        "description": "Vote availability on Sunday evening",
+        "groupId": "120363401228686791@g.us",
+        "cron": "0 20 * * 0",
+        "message": "📢 Reminder - Have you voted for your availability?"
+    },
+    {
+        "enabled": true,
+        "name": "Monday Vote Reminder",
+        "description": "Vote availability on Monday morning",
+        "groupId": "120363401228686791@g.us",
+        "cron": "0 10 * * 1",
+        "message": "📢 Reminder - Have you voted for your availability?"
+    },
+    {
+        "enabled": false,
+        "name": "Night Reminder",
+        "description": "Daily night reminder",
+        "groupId": "120363401810961427@g.us",
+        "cron": "0 22 * * *",
+        "message": "🌙 Good Night!"
+    }
 ]
