@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/rishikesh0304/whatsapp-reminder-bot#readme",
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc13",
-    "qrcode-terminal": "^0.12.0"
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.5.0",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "winston": "^3.19.0"
   }
 }

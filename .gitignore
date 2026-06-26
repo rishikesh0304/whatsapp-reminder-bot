@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# WhatsApp session
+auth/
+
+# Logs
+logs/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store

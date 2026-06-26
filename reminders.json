@@ -1,0 +1,18 @@
+[
+    {
+        "enabled": true,
+        "name": "Morning Reminder",
+        "description": "Daily morning greeting",
+        "groupId": "919035016366-1614008442@g.us",
+        "cron": "*/1 * * * *",
+        "message": "🌞 Good Morning!"
+    },
+    {
+        "enabled": false,
+        "name": "Night Reminder",
+        "description": "Daily night reminder",
+        "groupId": "919035016366-1614008442@g.us",
+        "cron": "0 22 * * *",
+        "message": "🌙 Good Night!"
+    }
+]
