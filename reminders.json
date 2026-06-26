@@ -23,6 +23,15 @@
         "cron": "0 10 * * 1",
         "message": "📢 Reminder - Have you voted for your availability?"
     },
+
+    {
+    "enabled": true,
+    "name": "Personal Reminder",
+    "description": "Reminder to personal WhatsApp",
+    "groupId": "919380391540@s.whatsapp.net",
+    "cron": "*/1 * * * *",
+    "message": "I love you!"
+},
     {
         "enabled": false,
         "name": "Night Reminder",
