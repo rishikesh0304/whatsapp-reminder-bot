@@ -1,6 +1,6 @@
 [
     {
-        "enabled": true,
+        "enabled": false,
         "name": "Morning Reminder",
         "description": "Daily morning greeting",
         "groupId": "120363401810961427@g.us",
